@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.results-display {
+  color: Blue;
+  font-size: 18px;
+  float:left;
+  padding : 10px;
+}		
+
+.map {
+  float:left;
+  width: 700px; 
+  height: 500px;
+}
