@@ -1,0 +1,48 @@
+<html>
+<head>
+
+
+       <title>Pillion Search Engine</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+</head>    
+        <body>
+           <div>
+                   <b>Source A:</b><input id="searchTextFieldSource" type="text" size="50" placeholder="Enter the source" autocomplete="on" runat="server" />  
+                    <input type="text" id="city1" name="city1" />
+                    <input type="text" id="cityLat1" name="cityLat1" />
+                    <input type="text" id="cityLng1" name="cityLng1" />  
+           </div>
+
+            <div>
+                   <b>Destination B:</b><input id="searchTextFieldDestination" type="text" size="50" placeholder="Enter the destination" autocomplete="on" runat="server" />  
+                    <input type="text" id="city2" name="city2" />
+                    <input type="text" id="cityLat2" name="cityLat2" />
+                    <input type="text" id="cityLng2" name="cityLng2" />  
+           </div>
+
+            <div>
+                   <b>Intermediate Source C:</b><input id="searchTextFieldIntermediateSource" type="text" size="50" placeholder="Enter the destination" autocomplete="on" runat="server" />  
+                    <input type="text" id="city3" name="city3" />
+                    <input type="text" id="cityLat3" name="cityLat3" />
+                    <input type="text" id="cityLng3" name="cityLng3" />  
+           </div>
+		   
+	   <div>
+                   <b>Intermediate Destination D:</b><input id="searchTextFieldIntermediateDestination" type="text" size="50" placeholder="Enter the destination" autocomplete="on" runat="server" />  
+                    <input type="text" id="city4" name="city4" />
+                    <input type="text" id="cityLat4" name="cityLat4" />
+                    <input type="text" id="cityLng4" name="cityLng4" />  
+           </div>
+
+            <div id="map" class="map"></div>
+	    <div class="results-display">
+	    </div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	</script>
+
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places,geometry" type="text/javascript"></script>
+
+	<script src="script.js" type="text/javascript"></script>    
+       </body>
+</html>
